@@ -10,14 +10,13 @@
         <!--Settings View Controller-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="Y6W-OH-hqX" customClass="SettingsViewController" customModule="ShopifyProj" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bzf-Io-Bp7">
-                                <rect key="frame" x="14" y="87" width="359" height="444"/>
+                                <rect key="frame" x="13" y="85" width="359" height="446"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="eVL-D8-Pg2" kind="embed" id="lb2-C6-OW1"/>
@@ -41,17 +40,16 @@
                     </view>
                     <navigationItem key="navigationItem" id="OiX-2A-MTL"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="849.61832061068696" y="-27.464788732394368"/>
         </scene>
         <!--Settings Table View Controller-->
         <scene sceneID="v3i-tq-EjP">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="OVj-ua-tKh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <exit id="l1W-Ad-aJR" userLabel="Exit" sceneMemberID="exit"/>
                 <tableViewController id="eVL-D8-Pg2" customClass="SettingsTableViewController" customModule="ShopifyProj" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="qJC-qJ-KZU">
-                        <rect key="frame" x="0.0" y="0.0" width="359" height="444"/>
+                        <rect key="frame" x="0.0" y="0.0" width="359" height="446"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.21870204809999999" green="0.1085439101" blue="0.1874395311" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <sections>
@@ -169,13 +167,15 @@
                         <outlet property="addressLabel" destination="QWM-yQ-M4n" id="8bP-Oy-bal"/>
                     </connections>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OVj-ua-tKh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="l1W-Ad-aJR" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1643.5114503816794" y="-28.169014084507044"/>
         </scene>
         <!--Shopping Cart-->
         <scene sceneID="mzX-Pj-Qxj">
             <objects>
-                <viewController id="Vp9-gH-csw" customClass="ShoppingCartViewController" customModule="ShopifyProj" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="secondStory" id="Vp9-gH-csw" customClass="ShoppingCartViewController" customModule="ShopifyProj" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RYt-M0-yUK">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -337,7 +337,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RYd-MF-7H9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-706.10687022900765" y="-27.464788732394368"/>
+            <point key="canvasLocation" x="-708" y="-27"/>
         </scene>
     </scenes>
 </document>
