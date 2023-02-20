@@ -1,13 +1,13 @@
 //
-//  ViewController.swift
+//  CategoryViewController.swift
 //  ShopifyProj
 //
-//  Created by Asmaa_Abdelfattah on 01/12/1401 AP.
+//  Created by Asmaa_Abdelfattah on 30/11/1401 AP.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class CategoryViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
