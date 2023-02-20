@@ -3,7 +3,6 @@
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
-        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -38,7 +37,7 @@
                     </tabBar>
                     <connections>
                         <segue destination="T8d-T6-3y6" kind="relationship" relationship="viewControllers" id="WRh-mH-HBj"/>
-                        <segue destination="vIx-xe-zCK" kind="relationship" relationship="viewControllers" id="T5z-VT-flV"/>
+                        <segue destination="eyQ-Za-86a" kind="relationship" relationship="viewControllers" id="bXh-E2-CTt"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sc3-D0-UgB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -137,18 +136,6 @@
             </objects>
             <point key="canvasLocation" x="-788.54961832061065" y="-675.35211267605632"/>
         </scene>
-        <!--Category-->
-        <scene sceneID="fze-I0-5IO">
-            <objects>
-                <viewController id="vIx-xe-zCK" customClass="CategoryViewController" customModule="ShopifyProj" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Category" id="JZw-ge-LCd">
-                        <imageReference key="image" image="square.split.2x2.fill" catalog="system" symbolScale="medium"/>
-                    </tabBarItem>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vTS-xg-pRI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1715" y="218"/>
-        </scene>
         <!--Item-->
         <scene sceneID="W5g-E7-TB1">
             <objects>
@@ -168,12 +155,27 @@
             </objects>
             <point key="canvasLocation" x="-1715.2671755725189" y="-675.35211267605632"/>
         </scene>
+        <!--Item-->
+        <scene sceneID="gfC-3l-Zvi">
+            <objects>
+                <viewController id="eyQ-Za-86a" customClass="CategoryDetailsViewController" customModule="ShopifyProj" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ReQ-5i-5Gi">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="IA8-HR-iUp"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="wS2-Hp-m8q"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pLM-Ib-ln0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2183" y="-124"/>
+        </scene>
     </scenes>
     <resources>
         <image name="cart.fill" catalog="system" width="128" height="102"/>
         <image name="heart.fill" catalog="system" width="128" height="107"/>
         <image name="magnifyingglass" catalog="system" width="128" height="117"/>
-        <image name="square.split.2x2.fill" catalog="system" width="128" height="114"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
